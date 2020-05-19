@@ -1,18 +1,29 @@
 {
-    "name": "post-course",
-    "version": "1.0.0",
-    "main": "index.js",
-    "repository": "https://github.com/nology-tech/typescript-challenges.git",
-    "license": "MIT",
-    "devDependencies": {
-        "@types/jest": "^24.9.1",
-        "jest": "^24.1.0",
-        "ts-jest": "^24.0.0",
-        "tslint": "^5.13.0",
-        "typescript": "^3.3.3333"
-    },
-    "scripts": {
-        "test": "jest",
-        "lint": "tslint -c tslint.json 'src/**/*.ts'"
-    }
+  "name": "post-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nology-tech/typescript-challenges.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "jest": "^24.1.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.0",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "description": "We expect you to continue your learning once the course finishes, as well as job hunting. This repo gives you some JavaScript challenges based on real interview tech tests to help you in your post course learning. We do not want your learning to be limited to the challenges in this repo, so please also work on your portfolios and personal projects.",
+  "bugs": {
+    "url": "https://github.com/nology-tech/typescript-challenges/issues"
+  },
+  "homepage": "https://github.com/nology-tech/typescript-challenges#readme",
+  "dependencies": {},
+  "keywords": [],
+  "author": ""
 }
